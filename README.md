@@ -6,14 +6,14 @@ Install Docker
 ``` sudo systemctl start docker``` Start Docker Daemon.
 ``` sudo systemctl status docker``` Check Status to see if it's started or not prooperly.
 
-install docker compose with executable permission
+Install Docker Compose with executable permission
 ```
 sudo curl -SL https://github.com/docker/compose/releases/download/v2.24.6/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-install amazon cli with lightsail plugin
+Install Amazon CLI with Lightsail plugin
 
 ```curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"```
 ```  unzip awscliv2.zip```
@@ -26,14 +26,14 @@ Lightsail Plugin installation
 Clone Repo
 ```git clone https://github.com/awsgeek/lightsail-containers-nginx.git```
 
-change directory to Project Directory
+Change directory to Project Directory
 ```cd lightsail-containers-nginx```
 
 Add line to app.py in flask directory
 	```if __name__ == "__main__":
 	   app.run(host="0.0.0.0", port=5000)```
 	   
-add port expose to DockerFile in Flask and jinja2 update command too.
+Add port expose to DockerFile in Flask and jinja2 update command too.
 	```EXPOSE 5000/tcp
 	RUN pip install --upgrade Flask Jinja2 #after pip install requirements.txt```
 	
@@ -115,7 +115,7 @@ Cleanup::
 
 ```aws lightsail delete-container-service --service-name sample-service```
 
-wait until deletion and done.
+Wait until deletion and done.
 
 Thank You..!😁😁
 
