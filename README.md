@@ -1,8 +1,10 @@
-It is Re-written accurate guide for following
-https://aws.amazon.com/tutorials/setup-an-nginx-reverse-proxy/
+
 
 # AWS_Lightsail_nginx
 AWS Lightsail guide to set up Reverse proxy Server using NGINX.
+It is Re-written accurate guide for following
+https://aws.amazon.com/tutorials/setup-an-nginx-reverse-proxy/
+
 
 Install Docker
 ```sudo yum install docker```
