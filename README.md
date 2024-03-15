@@ -57,6 +57,8 @@ Don't worry if it's not showing any output here it'll show after Docker-compose.
 
 cd to nginx directory
 ```cd /nginx```
+``` ls ```
+go back to parent directory.
 ```docker build -t nginx-container ./nginx```
 
 Docker-compose the nginx file
