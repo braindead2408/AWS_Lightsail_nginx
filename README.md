@@ -27,7 +27,10 @@ Install Amazon CLI with Lightsail plugin
 Lightsail Plugin installation
 ```curl "https://s3.us-west-2.amazonaws.com/lightsailctl/latest/linux-amd64/lightsailctl" -o "/usr/local/bin/lightsailctl"```
 ```sudo chmod +x /usr/local/bin/lightsailctl```
+
 Install git if not available by ```sudo yum install git```
+
+
 Clone Repo
 ```git clone https://github.com/awsgeek/lightsail-containers-nginx.git```
 
